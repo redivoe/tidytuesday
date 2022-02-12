@@ -91,7 +91,7 @@ ggplot(world_map) +
                   nudge_y = c(2,-1,0),
                   fontface = "italic")+
   labs(title = str_to_upper("Where did the Tuskegee Airmen come from?"),
-       caption = "@redivoed")+
+       caption = "@edoardoredivo")+
   theme_void()+
   theme(plot.title = element_text(hjust = 0.5, size = 5*font_size),
         legend.position = "none",
