@@ -29,7 +29,7 @@ font <- "IBM Plex Sans"
 status_transition %>% 
   ggplot(aes(x = year_1995, y = year_2020))+
   geom_tile(aes(fill = n), col = "lavender")+
-  geom_text(aes(label = n, col = cut(n, breaks = 4)))+
+  geom_text(aes(label = n, col = cut(n, breaks = 4)), family = font)+
   scale_color_manual(values = manual_text_cols)+
   scale_fill_viridis_c(option = "G",
                        direction = -1,
